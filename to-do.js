@@ -4,8 +4,8 @@ let toFill = document.getElementById('to-fill')
 
 
 btn.addEventListener('click', (e)=>{
-    var list = document.createElement('li');
-    var but = document.createElement('button');
+    let list = document.createElement('li');
+    const but = document.createElement('button');
     
 
     list.innerText = task.value;
